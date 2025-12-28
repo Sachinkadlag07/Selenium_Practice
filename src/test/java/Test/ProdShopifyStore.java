@@ -32,14 +32,14 @@ public class ProdShopifyStore {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
 
         //driver.get("https://at.nortonmotorcycles.com/");
-        driver.get("http://checkout.nortonmotorcycles.com/en-gb/collections/casual-wear");
+        driver.get("https://shop.nortonmotorcycles.com/en-gb/collections/casual-wear");
 
-        driver.findElement(By.xpath("//div[@class='section-double__actions frame section-double__actions--bottom aos-animate']//a[@class='text-link'][normalize-space()='Store Login']")).click();
+       // driver.findElement(By.xpath("//div[@class='section-double__actions frame section-double__actions--bottom aos-animate']//a[@class='text-link'][normalize-space()='Store Login']")).click();
 
-        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("norton-prod-store");
-        driver.findElement(By.xpath("//button[normalize-space()='Login']")).click();
+        //driver.findElement(By.xpath("//input[@id='password']")).sendKeys("norton-prod-store");
+        //driver.findElement(By.xpath("//button[normalize-space()='Login']")).click();
 
-        driver.findElement(By.xpath("//a[@class='HeaderAction_menuLink__kxZGW'][normalize-space()='Casual Wear']")).click();
+        //driver.findElement(By.xpath("//a[@class='HeaderAction_menuLink__kxZGW'][normalize-space()='Casual Wear']")).click();
         Thread.sleep(2000);
 
         List<WebElement> links  =driver.findElements(By.tagName("a"));

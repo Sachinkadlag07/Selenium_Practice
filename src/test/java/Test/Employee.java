@@ -2,9 +2,9 @@ package Test;
 
 public abstract class Employee {
 
-    String name;
-    String id;
-    String department;
+    protected String name;
+    protected  String id;
+    protected String department;
 
     public Employee(String name, String id, String department) {
         this.name = name;

@@ -16,5 +16,6 @@ public class Dog implements Animal {
         Dog dog = new Dog();
         dog.sound();
         dog.eat();
+        System.out.println(dog.age);
     }
 }

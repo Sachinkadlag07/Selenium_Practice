@@ -20,7 +20,7 @@ public class URLVerification {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
 
-        //driver.get("https://at.nortonmotorcycles.com/");
+        //driver.get("https://uat.nortonmotorcycles.com/");
         //uat store url
         driver.get("https://uat-norton-store.myshopify.com/en-gb/collections/casual-wear");
 
