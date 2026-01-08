@@ -30,7 +30,7 @@ public class AjaxLoader {
         String  actualtext = driver.findElement(By.xpath("//h4[text()='Well Done For Waiting....!!!']")).getText();
 
 
-        Assert.assertEquals(expectedText, actualtext);
+        Assert.assertEquals(actualtext, expectedText);
 
         Thread.sleep(2000);
 
